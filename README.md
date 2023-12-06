@@ -1,2 +1,7 @@
-# BIKE-SHARING-RENTAL-DICODING
-BIKE SHARING RENTAL DICODING PROJECT WITH PYTHON AND STREAMLIT
+#Setup environment
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel
+
+#Run Dashboard
+streamlit run dashboard.py
